@@ -1,5 +1,11 @@
 {
 	"pay": {
 		"message" : "Exito"
+	},
+	"postpone": {
+		"message" : "Exito"
+	},
+	"callCenter": {
+		"message" : "Exito"
 	}
 }
