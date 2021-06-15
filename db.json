@@ -7,5 +7,88 @@
 	},
 	"callCenter": {
 		"message" : "Exito"
-	}
+	},
+	"route": [
+	  {
+		"id": 1,
+		"value": 10000,
+		"state_id": 1,
+		"response_id": null,
+		"priority": false,
+		"note": "Una nota",
+		"sale": {
+		  "contract": 1,
+		  "products": {
+			"name": "Galleta"
+		  },
+		  "productsList": "Galleta",
+		  "pay_total": 150000,
+		  "balance": 100000,
+		  "client": {
+			"name": "Cliente 1",
+			"address": "Direccion",
+			"address_extra": "Casa",
+			"city": "Ataco",
+			"coordinates": "3.591882, -75.382735",
+			"mobile": "3012472089",
+			"phone": "3258964",
+			"neighborhood": "Calle real"
+		  }
+		}
+	  },
+	  {
+		"id": 2,
+		"value": 20000,
+		"state_id": 2,
+		"response_id": null,
+		"priority": false,
+		"note": "Una nota 2",
+		"sale": {
+		  "contract": 2,
+		  "products": {
+			"name": "Galletas"
+		  },
+		  "productsList": "Galletas",
+		  "pay_total": 250000,
+		  "balance": 200000,
+		  "client": {
+			"name": "Cliente 2",
+			"address": "Direccion",
+			"address_extra": "Casa",
+			"city": "Ataco",
+			"coordinates": "3.591647, -75.383100",
+			"mobile": "3012472089",
+			"phone": "3258964",
+			"neighborhood": "Calle real"
+		  }
+		}
+	  },
+	  {
+		"id": 3,
+		"value": 20000,
+		"state_id": 2,
+		"response_id": null,
+		"priority": false,
+		"note": "Una nota 3",
+		"sale": {
+		  "contract": 3,
+		  "products": {
+			"name": "Galletas 3"
+		  },
+		  "productsList": "Galletas",
+		  "pay_total": 250000,
+		  "balance": 200000,
+		  "client": {
+			"name": "Cliente 3",
+			"address": "Direccion",
+			"address_extra": "Casa",
+			"city": "Ataco",
+			"coordinates": "3.591647, -75.383100",
+			"mobile": "3012472089",
+			"phone": "3258964",
+			"neighborhood": "Calle real"
+		  }
+		}
+	  }
+	]
 }
