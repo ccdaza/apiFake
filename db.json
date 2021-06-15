@@ -18,9 +18,12 @@
 		"note": "Una nota",
 		"sale": {
 		  "contract": 1,
-		  "products": {
-			"name": "Galleta"
-		  },
+		  "_products": [
+			"quantity": 3,
+			"product" : {
+				"name" : "Falleta"
+			}
+		  ],
 		  "productsList": "Galleta",
 		  "pay_total": 150000,
 		  "balance": 100000,
@@ -45,9 +48,12 @@
 		"note": "Una nota 2",
 		"sale": {
 		  "contract": 2,
-		  "products": {
-			"name": "Galletas"
-		  },
+		  "_products": [
+			"quantity": 3,
+			"product" : {
+				"name" : "Falleta"
+			}
+		  ],
 		  "productsList": "Galletas",
 		  "pay_total": 250000,
 		  "balance": 200000,
@@ -72,9 +78,12 @@
 		"note": "Una nota 3",
 		"sale": {
 		  "contract": 3,
-		  "products": {
-			"name": "Galletas 3"
-		  },
+		  "_products": [
+			"quantity": 3,
+			"product" : {
+				"name" : "Falleta"
+			}
+		  ],
 		  "productsList": "Galletas",
 		  "pay_total": 250000,
 		  "balance": 200000,
@@ -99,9 +108,12 @@
 		"note": "Una nota 4",
 		"sale": {
 		  "contract": 4,
-		  "products": {
-			"name": "Galletas 3"
-		  },
+		  "_products": [
+			"quantity": 3,
+			"product" : {
+				"name" : "Falleta"
+			}
+		  ],
 		  "productsList": "Galletas",
 		  "pay_total": 250000,
 		  "balance": 200000,
@@ -126,279 +138,12 @@
 		"note": "Una nota 5",
 		"sale": {
 		  "contract": 5,
-		  "products": {
-			"name": "Galletas 3"
-		  },
-		  "productsList": "Galletas",
-		  "pay_total": 250000,
-		  "balance": 200000,
-		  "client": {
-			"name": "Cliente 3",
-			"address": "Direccion",
-			"address_extra": "Casa",
-			"city": "Ataco",
-			"coordinates": "3.591647, -75.383100",
-			"mobile": "3012472089",
-			"phone": "3258964",
-			"neighborhood": "Calle real"
-		  }
-		}
-	  },
-	  {
-		"id": 6,
-		"value": 20000,
-		"state_id": 2,
-		"response_id": null,
-		"priority": false,
-		"note": "Una nota 6",
-		"sale": {
-		  "contract": 6,
-		  "products": {
-			"name": "Galletas 3"
-		  },
-		  "productsList": "Galletas",
-		  "pay_total": 250000,
-		  "balance": 200000,
-		  "client": {
-			"name": "Cliente 3",
-			"address": "Direccion",
-			"address_extra": "Casa",
-			"city": "Ataco",
-			"coordinates": "3.591647, -75.383100",
-			"mobile": "3012472089",
-			"phone": "3258964",
-			"neighborhood": "Calle real"
-		  }
-		}
-	  },
-	  {
-		"id": 7,
-		"value": 20000,
-		"state_id": 2,
-		"response_id": null,
-		"priority": false,
-		"note": "Una nota 7",
-		"sale": {
-		  "contract": 7,
-		  "products": {
-			"name": "Galletas 3"
-		  },
-		  "productsList": "Galletas",
-		  "pay_total": 250000,
-		  "balance": 200000,
-		  "client": {
-			"name": "Cliente 3",
-			"address": "Direccion",
-			"address_extra": "Casa",
-			"city": "Ataco",
-			"coordinates": "3.591647, -75.383100",
-			"mobile": "3012472089",
-			"phone": "3258964",
-			"neighborhood": "Calle real"
-		  }
-		}
-	  },
-	  {
-		"id": 8,
-		"value": 20000,
-		"state_id": 2,
-		"response_id": null,
-		"priority": false,
-		"note": "Una nota 3",
-		"sale": {
-		  "contract": 8,
-		  "products": {
-			"name": "Galletas 3"
-		  },
-		  "productsList": "Galletas",
-		  "pay_total": 250000,
-		  "balance": 200000,
-		  "client": {
-			"name": "Cliente 3",
-			"address": "Direccion",
-			"address_extra": "Casa",
-			"city": "Ataco",
-			"coordinates": "3.591647, -75.383100",
-			"mobile": "3012472089",
-			"phone": "3258964",
-			"neighborhood": "Calle real"
-		  }
-		}
-	  },
-	  {
-		"id": 9,
-		"value": 20000,
-		"state_id": 2,
-		"response_id": null,
-		"priority": false,
-		"note": "Una nota 9",
-		"sale": {
-		  "contract": 9,
-		  "products": {
-			"name": "Galletas 3"
-		  },
-		  "productsList": "Galletas",
-		  "pay_total": 250000,
-		  "balance": 200000,
-		  "client": {
-			"name": "Cliente 3",
-			"address": "Direccion",
-			"address_extra": "Casa",
-			"city": "Ataco",
-			"coordinates": "3.591647, -75.383100",
-			"mobile": "3012472089",
-			"phone": "3258964",
-			"neighborhood": "Calle real"
-		  }
-		}
-	  },
-	  {
-		"id": 10,
-		"value": 20000,
-		"state_id": 2,
-		"response_id": null,
-		"priority": false,
-		"note": "Una nota 10",
-		"sale": {
-		  "contract": 10,
-		  "products": {
-			"name": "Galletas 3"
-		  },
-		  "productsList": "Galletas",
-		  "pay_total": 250000,
-		  "balance": 200000,
-		  "client": {
-			"name": "Cliente 3",
-			"address": "Direccion",
-			"address_extra": "Casa",
-			"city": "Ataco",
-			"coordinates": "3.591647, -75.383100",
-			"mobile": "3012472089",
-			"phone": "3258964",
-			"neighborhood": "Calle real"
-		  }
-		}
-	  },
-	  {
-		"id": 11,
-		"value": 20000,
-		"state_id": 2,
-		"response_id": null,
-		"priority": false,
-		"note": "Una nota 11",
-		"sale": {
-		  "contract": 11,
-		  "products": {
-			"name": "Galletas 3"
-		  },
-		  "productsList": "Galletas",
-		  "pay_total": 250000,
-		  "balance": 200000,
-		  "client": {
-			"name": "Cliente 3",
-			"address": "Direccion",
-			"address_extra": "Casa",
-			"city": "Ataco",
-			"coordinates": "3.591647, -75.383100",
-			"mobile": "3012472089",
-			"phone": "3258964",
-			"neighborhood": "Calle real"
-		  }
-		}
-	  },
-	  {
-		"id": 12,
-		"value": 20000,
-		"state_id": 2,
-		"response_id": null,
-		"priority": false,
-		"note": "Una nota 12",
-		"sale": {
-		  "contract": 12,
-		  "products": {
-			"name": "Galletas 3"
-		  },
-		  "productsList": "Galletas",
-		  "pay_total": 250000,
-		  "balance": 200000,
-		  "client": {
-			"name": "Cliente 3",
-			"address": "Direccion",
-			"address_extra": "Casa",
-			"city": "Ataco",
-			"coordinates": "3.591647, -75.383100",
-			"mobile": "3012472089",
-			"phone": "3258964",
-			"neighborhood": "Calle real"
-		  }
-		}
-	  },
-	  {
-		"id": 13,
-		"value": 20000,
-		"state_id": 2,
-		"response_id": null,
-		"priority": false,
-		"note": "Una nota 13",
-		"sale": {
-		  "contract": 13,
-		  "products": {
-			"name": "Galletas 3"
-		  },
-		  "productsList": "Galletas",
-		  "pay_total": 250000,
-		  "balance": 200000,
-		  "client": {
-			"name": "Cliente 3",
-			"address": "Direccion",
-			"address_extra": "Casa",
-			"city": "Ataco",
-			"coordinates": "3.591647, -75.383100",
-			"mobile": "3012472089",
-			"phone": "3258964",
-			"neighborhood": "Calle real"
-		  }
-		}
-	  },
-	  {
-		"id": 14,
-		"value": 20000,
-		"state_id": 2,
-		"response_id": null,
-		"priority": false,
-		"note": "Una nota 14",
-		"sale": {
-		  "contract": 14,
-		  "products": {
-			"name": "Galletas 3"
-		  },
-		  "productsList": "Galletas",
-		  "pay_total": 250000,
-		  "balance": 200000,
-		  "client": {
-			"name": "Cliente 3",
-			"address": "Direccion",
-			"address_extra": "Casa",
-			"city": "Ataco",
-			"coordinates": "3.591647, -75.383100",
-			"mobile": "3012472089",
-			"phone": "3258964",
-			"neighborhood": "Calle real"
-		  }
-		}
-	  },
-	  {
-		"id": 15,
-		"value": 20000,
-		"state_id": 2,
-		"response_id": null,
-		"priority": false,
-		"note": "Una nota 15",
-		"sale": {
-		  "contract": 15,
-		  "products": {
-			"name": "Galletas 3"
-		  },
+		  "_products": [
+			"quantity": 3,
+			"product" : {
+				"name" : "Falleta"
+			}
+		  ],
 		  "productsList": "Galletas",
 		  "pay_total": 250000,
 		  "balance": 200000,
