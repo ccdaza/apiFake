@@ -68,7 +68,7 @@
 		"value": 20000,
 		"state_id": 2,
 		"response_id": null,
-		"priority": false,
+		"priority": true,
 		"note": "Una nota 3",
 		"sale": {
 		  "contract": 3,
